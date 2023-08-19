@@ -30,7 +30,7 @@ function Projects({}: Props) {
                    transition={{duration: 1.2}}
                    whileInView={{ opacity: 1, y:0}}
                    viewport={{once: true}}
-                    src="MISZURI2.PNG"
+                    src="MISZURI2.png"
                     alt="PICTURE OF PROJECT"
                     />
                     <div className="space-y-5 px-0 md:px-10 max-w-6xl">
