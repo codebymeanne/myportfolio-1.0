@@ -18,8 +18,8 @@ function Skill({ directionLeft }: Props) {
         whileHover={{
             boxShadow: "1px 1px 20px rgb(128,128,128)"
         }}
-        src="Skillphp.png"
-        alt="Bootstrap"
+        src="SkillPhp.png"
+        alt="PHP"
         className="rounded-full border border-gray-500 object-cover w-20 h-20 md:w-25
         md:h-25 xl:w-30 xl:h-30 "/>
 
