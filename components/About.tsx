@@ -16,7 +16,7 @@ function About({}: Props) {
 
     <motion.img
     initial={{
-        x:-200,
+        x:-80,
         opacity: 0,
     }}
     transition={{
@@ -29,12 +29,12 @@ function About({}: Props) {
     md:rounded-lg sm:w-73 sm:h-115 xl:w-[400px] xl:h-[500px]"
     />
 
-    <div className="space-y-2 px-0 md:px-10">
-        <h4 className="text-2xl font-semibold">I am an Aspiring <span 
+    <div className="space-y-1 px-0 sm:px-2 md:px-10">
+        <h4 className="text-sm md:text-2xl font-semibold">I am an Aspiring <span 
         className="underline decoration-[#F7AB0A]/50">
         Software Engineer</span> from Taytay Rizal, Philippines
         </h4>
-        <p className="text-sm">
+        <p className="text-xs md:text-sm">
         I graduated with honors, earning the distinction of 
         <span className="text font-semibold"> Cum Laude </span>
         from the University of Rizal System, where I pursued a 

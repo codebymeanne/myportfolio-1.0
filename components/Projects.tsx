@@ -24,7 +24,7 @@ function Projects({}: Props) {
                 <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-0 items-center justify-center p-20 h-screen">
                     <motion.img 
                    initial={{
-                    y: -300,
+                    y: -200,
                     opacity: 0
                    }}
                    transition={{duration: 1.2}}
@@ -34,10 +34,10 @@ function Projects({}: Props) {
                     alt="PICTURE OF PROJECT"
                     />
                     <div className="space-y-5 px-0 md:px-10 max-w-6xl">
-                        <h4 className="text-xl font-semibold text-center">MIS for Zuri Residences
+                        <h4 className="text-sm md:text-xl font-semibold text-center">MIS for Zuri Residences
                         </h4>
 
-                        <p className="text-sm text-center md:text-left">
+                        <p className="text-xs md:text-sm text-center md:text-left">
                         The project focused on the design and development of 
                         Management Information System for Zuri Residence located 
                         at Dolores Taytay. 
@@ -57,7 +57,7 @@ function Projects({}: Props) {
                 <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-0 items-center justify-center p-20 h-screen">
                     <motion.img 
                    initial={{
-                    y: -300,
+                    y: -200,
                     opacity: 0
                    }}
                    transition={{duration: 1.2}}
@@ -67,10 +67,10 @@ function Projects({}: Props) {
                     alt="PICTURE OR PROJECT"
                     />
                     <div className="space-y-5 px-0 md:px-10 max-w-6xl">
-                        <h4 className="text-xl font-semibold text-center">My portfolio Version 1
+                        <h4 className="text-sm md:text-xl font-semibold text-center">My portfolio Version 1
                         </h4>
 
-                        <p className="text-sm text-center md:text-left">
+                        <p className="text-xs md:text-sm text-center md:text-left">
                         My portfolio website version1 is one of my frontend
                         projects, 
                         <br /> develop using NEXT JS, Typescript, Framermotion, 
@@ -82,7 +82,7 @@ function Projects({}: Props) {
                 <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-0 items-center justify-center p-20 h-screen">
                     <motion.img 
                    initial={{
-                    y: -300,
+                    y: -200,
                     opacity: 0
                    }}
                    transition={{duration: 1.2}}
@@ -92,10 +92,10 @@ function Projects({}: Props) {
                     alt="PICTURE OR PROJECT"
                     />
                     <div className="space-y-5 px-0 md:px-10 max-w-6xl">
-                        <h4 className="text-xl font-semibold text-center">My Hometown Blog Website
+                        <h4 className="text-sm md:text-xl font-semibold text-center">My Hometown Blog Website
                         </h4>
 
-                        <p className="text-sm text-center md:text-left">
+                        <p className="text-xs md:text-sm text-center md:text-left">
                         The focused of this website project was to showcase My hometown
                         "Taytay Rizal" - such as how it is famous, about its modernity,
                         how beautiful, great monuments and whats makes My hometown special.
@@ -109,7 +109,7 @@ function Projects({}: Props) {
                 <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-0 items-center justify-center p-20 h-screen">
                     <motion.img 
                    initial={{
-                    y: -300,
+                    y: -200,
                     opacity: 0
                    }}
                    transition={{duration: 1.2}}
@@ -119,10 +119,10 @@ function Projects({}: Props) {
                     alt="PICTURE OR PROJECT"
                     />
                     <div className="space-y-5 px-0 md:px-10 max-w-6xl">
-                        <h4 className="text-xl font-semibold text-center">King of the Road War
+                        <h4 className="text-sm md:text-xl font-semibold text-center">King of the Road War
                         </h4>
 
-                        <p className="text-sm text-center md:text-left">
+                        <p className="text-xs md:text-sm text-center md:text-left">
                         The simple game entitled "King of the Road War" is an endless 
                         2D racing game created using Unity. "King of the Road" is 
                         known as the Jeepney transportation in the Philippines. 

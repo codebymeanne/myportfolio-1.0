@@ -23,8 +23,8 @@ src="EMEA.png"
 alt="" />
 
 <div className="px-0 md:px-10">
-        <h4 className="text-2xl font-light">Marketing Assistant</h4>
-        <p className="font-bold text-1xl mt-1">EMEA REALTY CORPORATION</p>
+        <h4 className="text-sm md:text-2xl font-light">Marketing Assistant</h4>
+        <p className="font-bold text:xs md:text-1xl mt-1">EMEA REALTY CORPORATION</p>
         <div className="flex space-x-2 my-2">
             <img
             className="h-10 w-10 rounded-full"
@@ -43,7 +43,7 @@ alt="" />
 
     <p className="uppercase py-5 text-gray-300">JULY 2019 - JUNE 2022</p>
 
-    <ul className="list-disc space-y-4 ml-5 text-sm">
+    <ul className="list-disc space-y-1 ml-1 text-xs md:text-sm">
         <li>Work on this corporate company for three years.
             Wherein I specialized in helping the company, real estate agent,
             and clients.

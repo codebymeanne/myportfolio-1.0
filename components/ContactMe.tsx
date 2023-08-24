@@ -3,10 +3,7 @@ import { PhoneIcon, MapPinIcon,EnvelopeIcon } from '@heroicons/react/24/solid';
 import { useForm, SubmitHandler } from "react-hook-form";
 
 type Inputs = {
-    name: string;
     email: string;
-    subject: string;
-    message: string;
 };
 
 type Props = {};
@@ -14,7 +11,7 @@ type Props = {};
 function ContactMe({}: Props) {
     const { register, handleSubmit, } = useForm<Inputs>();
     const onSubmit: SubmitHandler<Inputs> = (formData) => 
- { window.location.href = 'mailto:it.meannedelrosario@gmail.com?subject=${formData.subject}&body=My Name is ${formData.name}. ${formData.message} (${formData.email})';
+ { window.location.href = 'mailto:it.meannedelrosario@gmail.com';
 };
 
   return (
@@ -25,56 +22,42 @@ function ContactMe({}: Props) {
         </h3>
     
     <div className="flex flex-col space-y-10">
-        <h4 className="text-xl font-semibold text-center">
-            I have got just what you need.{" "}
-            <span className="decoration-[#F7AB0A]/50 underline">Lets Talk.</span>
+        <h4 className="text:lg md:text-xl font-semibold text-center">
+        <span className="decoration-[#F7AB0A]/50 underline">Lets get in touch.{" "}</span>
+            I have got just what you need.
         </h4>
 
         <div className="space-y-7">
         <div className="flex items-center space-x-5 justify-center">
             <PhoneIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse"/>
-            <p className="text-xl">+63 936 887 6460</p>
+            <p className="text:lg md:text-xl">+63 936 887 6460</p>
             </div>
 
             <div className="flex items-center space-x-5 justify-center">
             <EnvelopeIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse"/>
-            <p className="text-xl">it.meanndelrosario@gmail.com</p>
+            <p className="text:lg md:text-xl">it.meanndelrosario@gmail.com</p>
         </div>
 
         <div className="flex items-center space-x-5 justify-center">
             <MapPinIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse"/>
-            <p className="text-xl">Taytay Rizal, Philippines</p>
+            <p className="text:lg md:text-xl">Taytay Rizal, Philippines</p>
         </div>
         </div>
 
         <form onSubmit={handleSubmit(onSubmit)} 
         className="flex flex-col space-y-2 w-fit mx-auto">
-            <div className="flex space-x-2">
-                <input {...register('name')} 
-                placeholder="Name" 
-                className="contactInput" 
-                type="text"
-                /> 
+            <div className="flex space-x-1">
                 <input {...register('email')} 
-                placeholder="Email" 
+                placeholder="Enter your email" 
                 className="contactInput" 
                 type="Email"
                 />
             </div>
 
-            <input {...register('subject')} 
-            placeholder="Subject" 
-            className="contactInput" 
-            type="text"
-            />
-            <textarea {...register('message')} 
-            placeholder="Message" 
-            className="contactInput">
-            </textarea>
             <button 
             type="submit"
-            className="bg-[#F7AB0A] py-2 px-10 rounded-md
-             text-black font-bold text-xl">Submit</button>
+            className="bg-[#F7AB0A] py-0.5 px-10 rounded-md
+             text-black font-bold text-lg">Submit</button>
         </form>
     </div>
 

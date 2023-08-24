@@ -34,7 +34,7 @@ function Skills({}: Props) {
         skills
         </h3>
     
-    <div className="grid grid-cols-4 gap-3">
+    <div className="grid grid-cols-4 gap-0.5">
         <SkillHTML />
         <SkillCSS />
         <SkillJS/>

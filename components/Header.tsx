@@ -64,7 +64,7 @@ export default function Header({}: Props) {
             bgColor="transparent"
             />
         <a href='#contact'>
-        <p className="uppercase hidden md:inline-flex tsxt-sm text-gray">
+        <p className="uppercase hidden md:inline-flex text-sm text-gray">
         Get In Touch
         </p> 
         </a>
