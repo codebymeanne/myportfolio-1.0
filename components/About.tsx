@@ -43,16 +43,17 @@ function About({}: Props) {
         my bachelor's degree while also working on corporate companies.
         <br />
 
-        I have fallen in love with coding and programming throughout my academic journey 
-        and what I love about it, is the challenge, enjoyment and satisfaction
-        I get when constructing logics to solve problems
-        and the contants learning I gain from it.
+        Currently, I am looking for a growth-oriented company to begin and 
+        build a long term career in the field of Information Technology where 
+        I can actively contribute to the development of the organization 
+        while upgrading my skill set and knowledge.
         <br /> 
         <br /> 
 
-        I am now poised to follow my real passion as a software engineer, and
-        I am confident in my ability to contribute to the success 
-        of a business, team or organization.
+        I am now poised to follow my real passion as a software engineer 
+        and/or to be part of IT Team, I am confident in my ability 
+        to contribute to the success of a business, team or organization.
+        To explore my portfolio, please continue scrolling.
 
         <br/> To explore my portfolio, please continue scrolling.
 
